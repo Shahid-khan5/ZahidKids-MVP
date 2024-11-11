@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Urdu';
+    src: url('https://fonts.googleapis.com/earlyaccess/notonastaliqurdu.css');
+  }
+  
+  .font-urdu {
+    font-family: 'Noto Nastaliq Urdu', serif;
+  }
+  
+  .font-pashto {
+    font-family: 'Noto Naskh Arabic', serif;
+  }
+}
